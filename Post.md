@@ -11,3 +11,19 @@ A program for which a process is created is called **Passive Entity**. A file co
  For example, to run the compiled Java program Program.class, we would enter java Program. The command java runs the JVM as an ordinary process, which in turns executes the Java program Program in the virtual machine. The concept is the same as simulation, except that the code, instead of being written for a different instruction set, is written in the Java language.
 
 I keep on sharing my learning and knowledge, so if it sparks your curiosity, then follow along. And as always, it will be no-fluff; just engineering. 
+
+
+A switch is a networking device used to connect multiple devices within a local area network.
+It works on Data Link layer(Layer 2). It is responsible for filtering and forwarding the packets between LAN segments based on MAC Address. Here's a breakdown of how switch works:
+
+Broadcast Address Handling: A switch will check if it has the broadcast address of host in the table if not it will register it.Then it will check if it has the MAC address of the destination. If not it will flood frame.
+
+Forwarding: It happens when the switch has entry for the frame's destination MAC address. That frame will be forwarded only out the port indicated by the MAC table.
+
+Flooding: It occurs when the switch has no entry for the frame's destination MAC address in its MAC table. With flooding, the frame is sent out to the every port except the port the frame come in.
+
+Filtering: It happens when the source and destination MAC address are located off the same port. The frame is simply dropped. 
+
+These techniques allow a switch to efficiently manage traffic within a local area network by selectively forwarding packets based on MAC addresses, reducing unnecessary network congestion.
+
+I keep on sharing my learning and knowledge, so if it sparks your curiosity, then follow along. And as always, it will be no-fluff; just engineering. 
