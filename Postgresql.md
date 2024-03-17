@@ -21,3 +21,6 @@ insert into student(rollno, name)values(1,'aditya'),(2,'pahadi');
 ## Select from database 
 **To fetch all columns** => select * from students;
 **To select distinct** => select distinct name from student;
+
+
+## Where clause in database
